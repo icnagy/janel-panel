@@ -1005,7 +1005,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 1900 8900 1900
 Text GLabel 5900 6700 0    50   Output ~ 0
-ENVELOPE_OUT
+ENVELOPE
 $Comp
 L Device:R R7
 U 1 1 5E6EDB1A

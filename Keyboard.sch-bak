@@ -210,7 +210,7 @@ F 3 "" H 2800 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:uA741-DIP14 U1
+L janel-panel-minimoog-rescue:uA741-DIP14-Amplifier_Operational U1
 U 1 1 5E382580
 P 3850 2600
 F 0 "U1" H 4194 2646 50  0000 L CNN

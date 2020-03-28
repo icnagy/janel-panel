@@ -14,9 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Amplifier_Operational:UA747 U7
+L janel-panel-minimoog-rescue:UA747-Amplifier_Operational U7
 U 1 1 5E33ACAE
 P 4400 2850
+AR Path="/5E33ACAE" Ref="U7"  Part="1" 
+AR Path="/5E33A92B/5E33ACAE" Ref="U7"  Part="1" 
 F 0 "U7" H 4744 2896 50  0000 L CNN
 F 1 "UA747" H 4744 2805 50  0000 L CNN
 F 2 "" H 4450 2900 50  0001 C CNN
@@ -25,9 +27,11 @@ F 3 "https://www.ti.com/lit/ds/symlink/ua747.pdf" H 4550 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:UA747 U7
+L janel-panel-minimoog-rescue:UA747-Amplifier_Operational U7
 U 2 1 5E33BB06
 P 7050 1850
+AR Path="/5E33BB06" Ref="U7"  Part="2" 
+AR Path="/5E33A92B/5E33BB06" Ref="U7"  Part="2" 
 F 0 "U7" H 7394 1896 50  0000 L CNN
 F 1 "UA747" H 7394 1805 50  0000 L CNN
 F 2 "" H 7100 1900 50  0001 C CNN
@@ -758,9 +762,11 @@ Wire Wire Line
 Wire Wire Line
 	8600 2050 8600 2400
 $Comp
-L Amplifier_Operational:UA747 U11
+L janel-panel-minimoog-rescue:UA747-Amplifier_Operational U11
 U 1 1 5E3BE335
 P 5000 5900
+AR Path="/5E3BE335" Ref="U11"  Part="1" 
+AR Path="/5E33A92B/5E3BE335" Ref="U11"  Part="1" 
 F 0 "U11" H 5344 5946 50  0000 L CNN
 F 1 "UA747" H 5344 5855 50  0000 L CNN
 F 2 "" H 5050 5950 50  0001 C CNN
@@ -808,9 +814,11 @@ $EndComp
 Wire Wire Line
 	4900 6300 4900 6200
 $Comp
-L Amplifier_Operational:UA747 U11
+L janel-panel-minimoog-rescue:UA747-Amplifier_Operational U11
 U 2 1 5E3BF552
 P 7250 5900
+AR Path="/5E3BF552" Ref="U11"  Part="2" 
+AR Path="/5E33A92B/5E3BF552" Ref="U11"  Part="2" 
 F 0 "U11" H 7594 5946 50  0000 L CNN
 F 1 "UA747" H 7594 5855 50  0000 L CNN
 F 2 "" H 7300 5950 50  0001 C CNN

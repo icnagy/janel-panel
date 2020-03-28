@@ -14,27 +14,29 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Amplifier_Operational:UA747 U?
+L janel-panel-minimoog-rescue:UA747-Amplifier_Operational U?
 U 1 1 5E12CD4D
 P 4900 3400
 AR Path="/5E0FCAFC/5E12CD4D" Ref="U?"  Part="1" 
 AR Path="/5E124CB8/5E12CD4D" Ref="U1"  Part="1" 
+AR Path="/5E12CD4D" Ref="U1"  Part="1" 
 F 0 "U1" H 5244 3446 50  0000 L CNN
 F 1 "UA747" H 5244 3355 50  0000 L CNN
-F 2 "" H 4950 3450 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 4950 3450 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/ua747.pdf" H 5050 3550 50  0001 C CNN
 	1    4900 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:UA747 U?
+L janel-panel-minimoog-rescue:UA747-Amplifier_Operational U?
 U 2 1 5E12CD53
 P 4150 5150
 AR Path="/5E0FCAFC/5E12CD53" Ref="U?"  Part="2" 
 AR Path="/5E124CB8/5E12CD53" Ref="U1"  Part="2" 
+AR Path="/5E12CD53" Ref="U1"  Part="2" 
 F 0 "U1" H 4494 5196 50  0000 L CNN
 F 1 "UA747" H 4494 5105 50  0000 L CNN
-F 2 "" H 4200 5200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 4200 5200 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/ua747.pdf" H 4300 5300 50  0001 C CNN
 	2    4150 5150
 	1    0    0    -1  
@@ -79,14 +81,14 @@ F 3 "" H 6900 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:uA741-DIP14 U?
+L Amplifier_Operational:LM741 U?
 U 1 1 5E12CD6B
 P 7000 3450
 AR Path="/5E0FCAFC/5E12CD6B" Ref="U?"  Part="1" 
 AR Path="/5E124CB8/5E12CD6B" Ref="U2"  Part="1" 
 F 0 "U2" H 7344 3496 50  0000 L CNN
 F 1 "uA741-DIP14" H 7344 3405 50  0000 L CNN
-F 2 "" H 7050 3500 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 7050 3500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 7150 3600 50  0001 C CNN
 	1    7000 3450
 	1    0    0    -1  

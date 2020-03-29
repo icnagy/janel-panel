@@ -1182,7 +1182,7 @@ Wire Wire Line
 	6500 7250 6250 7250
 Connection ~ 7600 6450
 Text GLabel 5150 6850 0    50   Input ~ 0
-CV_BUS
+CV
 $Comp
 L Device:R R24
 U 1 1 5E328E74

@@ -107,14 +107,8 @@ F 3 "" H 1250 950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1250 1250 1250 1300
-Text GLabel 1000 2400 0    50   Input ~ 0
+Text GLabel 1250 1800 0    50   Input ~ 0
 A
-Wire Wire Line
-	1000 2400 1100 2400
-Wire Wire Line
-	1100 2400 1100 1800
-Wire Wire Line
-	1100 1800 1250 1800
 Wire Wire Line
 	1250 1800 1250 1700
 $Comp
@@ -713,39 +707,31 @@ Wire Wire Line
 $Comp
 L power:GND #PWR054
 U 1 1 5E3AE014
-P 1250 2250
-F 0 "#PWR054" H 1250 2000 50  0001 C CNN
-F 1 "GND" H 1255 2077 50  0000 C CNN
-F 2 "" H 1250 2250 50  0001 C CNN
-F 3 "" H 1250 2250 50  0001 C CNN
-	1    1250 2250
+P 1600 2400
+F 0 "#PWR054" H 1600 2150 50  0001 C CNN
+F 1 "GND" H 1605 2227 50  0000 C CNN
+F 2 "" H 1600 2400 50  0001 C CNN
+F 3 "" H 1600 2400 50  0001 C CNN
+	1    1600 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R77
 U 1 1 5E3AE68C
-P 1250 2050
-F 0 "R77" H 1320 2096 50  0000 L CNN
-F 1 "31.6" H 1320 2005 50  0000 L CNN
-F 2 "" V 1180 2050 50  0001 C CNN
-F 3 "~" H 1250 2050 50  0001 C CNN
-	1    1250 2050
+P 1600 2200
+F 0 "R77" H 1670 2246 50  0000 L CNN
+F 1 "31.6" H 1670 2155 50  0000 L CNN
+F 2 "" V 1530 2200 50  0001 C CNN
+F 3 "~" H 1600 2200 50  0001 C CNN
+	1    1600 2200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1250 1900 1250 1850
-Connection ~ 1250 1800
+	1600 2050 1600 2000
 Wire Wire Line
-	1250 2200 1250 2250
-Text GLabel 1600 2400 2    50   Input ~ 0
+	1600 2350 1600 2400
+Text GLabel 1600 2000 2    50   Input ~ 0
 D
-Wire Wire Line
-	1600 2400 1600 1850
-Wire Wire Line
-	1600 1850 1250 1850
-Connection ~ 1250 1850
-Wire Wire Line
-	1250 1850 1250 1800
 Text GLabel 2650 2050 0    50   Input ~ 0
 B
 Wire Wire Line
@@ -762,4 +748,34 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 4000 2750 50  0001 C CNN
 	1    3850 2600
 	1    0    0    -1  
 $EndComp
+Text GLabel 1150 3000 2    50   Input ~ 0
+A
+Text GLabel 1150 3300 2    50   Input ~ 0
+B
+Text GLabel 1150 3100 2    50   Input ~ 0
+C
+$Comp
+L power:+5V #PWR0129
+U 1 1 5E9D6C88
+P 1150 3200
+F 0 "#PWR0129" H 1150 3050 50  0001 C CNN
+F 1 "+5V" H 1165 3373 50  0000 C CNN
+F 2 "" H 1150 3200 50  0001 C CNN
+F 3 "" H 1150 3200 50  0001 C CNN
+	1    1150 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x05_Male J1
+U 1 1 5E9DA8F7
+P 950 3100
+F 0 "J1" H 1058 3481 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 1058 3390 50  0000 C CNN
+F 2 "" H 950 3100 50  0001 C CNN
+F 3 "~" H 950 3100 50  0001 C CNN
+	1    950  3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 1150 2900 2    50   Input ~ 0
+D
 $EndSCHEMATC

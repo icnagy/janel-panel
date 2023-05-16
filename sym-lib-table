@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name janel-panel-minimoog-rescue)(type Legacy)(uri ${KIPRJMOD}/janel-panel-minimoog-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "janel-panel-minimoog-rescue")(type "KiCad")(uri "${KIPRJMOD}/janel-panel-minimoog-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "janel-panel")(type "Legacy")(uri "${KIPRJMOD}/janel-panel.lib")(options "")(descr ""))
 )

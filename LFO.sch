@@ -18,11 +18,11 @@ L janel-panel-minimoog-rescue:UA747-Amplifier_Operational U?
 U 1 1 5E12CD4D
 P 4900 3400
 AR Path="/5E0FCAFC/5E12CD4D" Ref="U?"  Part="1" 
-AR Path="/5E124CB8/5E12CD4D" Ref="U1"  Part="1" 
+AR Path="/5E124CB8/5E12CD4D" Ref="U6"  Part="1" 
 AR Path="/5E12CD4D" Ref="U?"  Part="1" 
-F 0 "U1" H 5244 3446 50  0000 L CNN
+F 0 "U6" H 5244 3446 50  0000 L CNN
 F 1 "UA747" H 5244 3355 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 4950 3450 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 4950 3450 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/ua747.pdf" H 5050 3550 50  0001 C CNN
 	1    4900 3400
 	1    0    0    -1  
@@ -32,11 +32,11 @@ L janel-panel-minimoog-rescue:UA747-Amplifier_Operational U?
 U 2 1 5E12CD53
 P 4150 5150
 AR Path="/5E0FCAFC/5E12CD53" Ref="U?"  Part="2" 
-AR Path="/5E124CB8/5E12CD53" Ref="U1"  Part="2" 
+AR Path="/5E124CB8/5E12CD53" Ref="U6"  Part="2" 
 AR Path="/5E12CD53" Ref="U?"  Part="2" 
-F 0 "U1" H 4494 5196 50  0000 L CNN
+F 0 "U6" H 4494 5196 50  0000 L CNN
 F 1 "UA747" H 4494 5105 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 4200 5200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 4200 5200 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/ua747.pdf" H 4300 5300 50  0001 C CNN
 	2    4150 5150
 	1    0    0    -1  
@@ -85,10 +85,10 @@ L Amplifier_Operational:LM741 U?
 U 1 1 5E12CD6B
 P 7000 3450
 AR Path="/5E0FCAFC/5E12CD6B" Ref="U?"  Part="1" 
-AR Path="/5E124CB8/5E12CD6B" Ref="U2"  Part="1" 
-F 0 "U2" H 7344 3496 50  0000 L CNN
+AR Path="/5E124CB8/5E12CD6B" Ref="U5"  Part="1" 
+F 0 "U5" H 7344 3496 50  0000 L CNN
 F 1 "uA741-DIP14" H 7344 3405 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 7050 3500 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 7050 3500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 7150 3600 50  0001 C CNN
 	1    7000 3450
 	1    0    0    -1  
@@ -127,7 +127,7 @@ AR Path="/5E0FCAFC/5E12CD7D" Ref="RV?"  Part="1"
 AR Path="/5E124CB8/5E12CD7D" Ref="RV2"  Part="1" 
 F 0 "RV2" H 5130 4146 50  0000 R CNN
 F 1 "1k" H 5130 4055 50  0000 R CNN
-F 2 "" H 5200 4100 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 5200 4100 50  0001 C CNN
 F 3 "~" H 5200 4100 50  0001 C CNN
 	1    5200 4100
 	-1   0    0    -1  
@@ -140,7 +140,7 @@ AR Path="/5E0FCAFC/5E12CD83" Ref="C?"  Part="1"
 AR Path="/5E124CB8/5E12CD83" Ref="C5"  Part="1" 
 F 0 "C5" V 6898 2900 50  0000 C CNN
 F 1 "680nF" V 6989 2900 50  0000 C CNN
-F 2 "" H 7188 2750 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 7188 2750 50  0001 C CNN
 F 3 "~" H 7150 2900 50  0001 C CNN
 	1    7150 2900
 	0    1    1    0   
@@ -153,7 +153,7 @@ AR Path="/5E0FCAFC/5E12CD89" Ref="R?"  Part="1"
 AR Path="/5E124CB8/5E12CD89" Ref="R13"  Part="1" 
 F 0 "R13" V 6093 4250 50  0000 C CNN
 F 1 "470" V 6184 4250 50  0000 C CNN
-F 2 "" V 6230 4250 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6230 4250 50  0001 C CNN
 F 3 "~" H 6300 4250 50  0001 C CNN
 	1    6300 4250
 	0    1    1    0   
@@ -166,7 +166,7 @@ AR Path="/5E0FCAFC/5E12CD8F" Ref="R?"  Part="1"
 AR Path="/5E124CB8/5E12CD8F" Ref="R14"  Part="1" 
 F 0 "R14" V 6093 4550 50  0000 C CNN
 F 1 "47" V 6184 4550 50  0000 C CNN
-F 2 "" V 6230 4550 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6230 4550 50  0001 C CNN
 F 3 "~" H 6300 4550 50  0001 C CNN
 	1    6300 4550
 	0    1    1    0   
@@ -179,7 +179,7 @@ AR Path="/5E0FCAFC/5E12CD95" Ref="R?"  Part="1"
 AR Path="/5E124CB8/5E12CD95" Ref="R12"  Part="1" 
 F 0 "R12" V 5893 3550 50  0000 C CNN
 F 1 "68k" V 5984 3550 50  0000 C CNN
-F 2 "" V 6030 3550 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6030 3550 50  0001 C CNN
 F 3 "~" H 6100 3550 50  0001 C CNN
 	1    6100 3550
 	0    1    1    0   
@@ -192,7 +192,7 @@ AR Path="/5E0FCAFC/5E12CD9B" Ref="R?"  Part="1"
 AR Path="/5E124CB8/5E12CD9B" Ref="R15"  Part="1" 
 F 0 "R15" H 6520 3996 50  0000 L CNN
 F 1 "68k" H 6520 3905 50  0000 L CNN
-F 2 "" V 6380 3950 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6380 3950 50  0001 C CNN
 F 3 "~" H 6450 3950 50  0001 C CNN
 	1    6450 3950
 	1    0    0    -1  
@@ -205,7 +205,7 @@ AR Path="/5E0FCAFC/5E12CDA1" Ref="R?"  Part="1"
 AR Path="/5E124CB8/5E12CDA1" Ref="R9"  Part="1" 
 F 0 "R9" H 5270 3746 50  0000 L CNN
 F 1 "3k9" H 5270 3655 50  0000 L CNN
-F 2 "" V 5130 3700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5130 3700 50  0001 C CNN
 F 3 "~" H 5200 3700 50  0001 C CNN
 	1    5200 3700
 	1    0    0    -1  
@@ -218,7 +218,7 @@ AR Path="/5E0FCAFC/5E12CDA7" Ref="R?"  Part="1"
 AR Path="/5E124CB8/5E12CDA7" Ref="R8"  Part="1" 
 F 0 "R8" H 3720 3696 50  0000 L CNN
 F 1 "100k" H 3720 3605 50  0000 L CNN
-F 2 "" V 3580 3650 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3580 3650 50  0001 C CNN
 F 3 "~" H 3650 3650 50  0001 C CNN
 	1    3650 3650
 	1    0    0    -1  
@@ -231,7 +231,7 @@ AR Path="/5E0FCAFC/5E12CDAD" Ref="R?"  Part="1"
 AR Path="/5E124CB8/5E12CDAD" Ref="R11"  Part="1" 
 F 0 "R11" V 5443 2600 50  0000 C CNN
 F 1 "100k" V 5534 2600 50  0000 C CNN
-F 2 "" V 5580 2600 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5580 2600 50  0001 C CNN
 F 3 "~" H 5650 2600 50  0001 C CNN
 	1    5650 2600
 	0    1    1    0   
@@ -244,7 +244,7 @@ AR Path="/5E0FCAFC/5E12CDB3" Ref="P?"  Part="1"
 AR Path="/5E124CB8/5E12CDB3" Ref="P1"  Part="1" 
 F 0 "P1" H 5581 3596 50  0000 R CNN
 F 1 "100k" H 5581 3505 50  0000 R CNN
-F 2 "" H 5650 3550 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5650 3550 50  0001 C CNN
 F 3 "~" H 5650 3550 50  0001 C CNN
 	1    5650 3550
 	1    0    0    -1  
@@ -257,7 +257,7 @@ AR Path="/5E0FCAFC/5E12CDB9" Ref="R?"  Part="1"
 AR Path="/5E124CB8/5E12CDB9" Ref="R7"  Part="1" 
 F 0 "R7" V 3393 5250 50  0000 C CNN
 F 1 "1k" V 3484 5250 50  0000 C CNN
-F 2 "" V 3530 5250 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3530 5250 50  0001 C CNN
 F 3 "~" H 3600 5250 50  0001 C CNN
 	1    3600 5250
 	0    1    1    0   
@@ -373,10 +373,10 @@ L Switch:SW_SPDT K?
 U 1 1 5E12CDFC
 P 2950 5150
 AR Path="/5E0FCAFC/5E12CDFC" Ref="K?"  Part="1" 
-AR Path="/5E124CB8/5E12CDFC" Ref="K1"  Part="1" 
-F 0 "K1" H 2950 5435 50  0000 C CNN
+AR Path="/5E124CB8/5E12CDFC" Ref="K4"  Part="1" 
+F 0 "K4" H 2950 5435 50  0000 C CNN
 F 1 "SW_SPDT" H 2950 5344 50  0000 C CNN
-F 2 "" H 2950 5150 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 2950 5150 50  0001 C CNN
 F 3 "~" H 2950 5150 50  0001 C CNN
 	1    2950 5150
 	1    0    0    1   
@@ -391,7 +391,7 @@ AR Path="/5E0FCAFC/5E12CE03" Ref="R?"  Part="1"
 AR Path="/5E124CB8/5E12CE03" Ref="R10"  Part="1" 
 F 0 "R10" V 5443 2100 50  0000 C CNN
 F 1 "1k" V 5534 2100 50  0000 C CNN
-F 2 "" V 5580 2100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5580 2100 50  0001 C CNN
 F 3 "~" H 5650 2100 50  0001 C CNN
 	1    5650 2100
 	0    1    1    0   

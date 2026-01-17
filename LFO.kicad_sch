@@ -623,7 +623,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 4.318 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -648,7 +648,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 0 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -674,10 +674,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_SPDT_0_0"
+			(symbol "SW_SPDT_0_1"
 				(circle
 					(center -2.032 0)
-					(radius 0.508)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -686,22 +686,9 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_0_1"
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 1.651 2.286)
+						(xy -1.651 0.254) (xy 1.651 2.286)
 					)
 					(stroke
 						(width 0)
@@ -713,7 +700,18 @@
 				)
 				(circle
 					(center 2.032 2.54)
-					(radius 0.508)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -724,6 +722,17 @@
 				)
 			)
 			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1439,8 +1448,12 @@
 		)
 		(symbol "power:+VSW"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1540,8 +1553,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+VSW"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1561,14 +1573,18 @@
 		)
 		(symbol "power:-VSW"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 2.54 0)
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1577,7 +1593,7 @@
 				)
 			)
 			(property "Value" "-VSW"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1624,8 +1640,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "-VSW"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1659,8 +1674,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1736,8 +1755,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2427,7 +2445,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005e12cd4d")
 		(property "Reference" "U6"
-			(at 134.62 81.0261 0)
+			(at 134.62 78.0348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,14 +2453,14 @@
 			)
 		)
 		(property "Value" "UA747"
-			(at 134.62 83.5661 0)
+			(at 134.62 80.5748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" ""
 			(at 125.73 83.185 0)
 			(effects
 				(font
@@ -2451,7 +2469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ua747.pdf"
+		(property "Datasheet" ""
 			(at 128.27 80.645 0)
 			(effects
 				(font
@@ -2466,6 +2484,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2546,7 +2565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" ""
 			(at 106.68 129.54 0)
 			(effects
 				(font
@@ -2555,7 +2574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ua747.pdf"
+		(property "Datasheet" ""
 			(at 109.22 127 0)
 			(effects
 				(font
@@ -2570,6 +2589,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2667,12 +2687,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
 			(at 121.92 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2731,12 +2752,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-VSW\""
 			(at 121.92 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2795,12 +2817,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-VSW\""
 			(at 175.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2842,7 +2865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
+		(property "Footprint" ""
 			(at 179.07 86.36 0)
 			(effects
 				(font
@@ -2860,12 +2883,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Operational Amplifier, DIP-8/TO-99-8"
 			(at 177.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2945,12 +2969,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
 			(at 175.26 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3009,12 +3034,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
 			(at 102.87 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3057,7 +3083,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" ""
 			(at 132.08 104.14 0)
 			(effects
 				(font
@@ -3066,7 +3092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 132.08 104.14 0)
 			(effects
 				(font
@@ -3081,6 +3107,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3126,7 +3153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" ""
 			(at 177.8 74.6252 0)
 			(effects
 				(font
@@ -3144,12 +3171,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 181.61 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3192,7 +3220,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 150.495 114.427 90)
 			(effects
 				(font
@@ -3210,12 +3238,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 150.495 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3258,7 +3287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 155.575 104.902 90)
 			(effects
 				(font
@@ -3276,12 +3305,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 155.575 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3324,7 +3354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 154.94 88.392 90)
 			(effects
 				(font
@@ -3342,12 +3372,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 154.94 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3392,7 +3423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 162.052 95.885 90)
 			(effects
 				(font
@@ -3410,12 +3441,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 163.83 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3444,7 +3476,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005e12cda1")
 		(property "Reference" "R9"
-			(at 134.62 93.345 0)
+			(at 134.62 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3453,7 +3485,7 @@
 			)
 		)
 		(property "Value" "3k9"
-			(at 134.62 95.885 0)
+			(at 134.62 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,7 +3493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 130.302 93.98 90)
 			(effects
 				(font
@@ -3479,12 +3511,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3529,7 +3562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 90.932 92.71 90)
 			(effects
 				(font
@@ -3547,12 +3580,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 92.71 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3595,7 +3629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 143.51 64.262 90)
 			(effects
 				(font
@@ -3613,12 +3647,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 143.51 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3642,7 +3677,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e12cdb3")
 		(property "Reference" "P1"
@@ -3663,7 +3698,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 143.51 90.17 0)
 			(effects
 				(font
@@ -3672,7 +3707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 143.51 90.17 0)
 			(effects
 				(font
@@ -3687,6 +3722,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3732,7 +3768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 91.44 131.572 90)
 			(effects
 				(font
@@ -3750,12 +3786,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 91.44 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3817,12 +3854,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 114.3 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3881,12 +3919,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 163.83 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3908,7 +3947,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e12cdfc")
 		(property "Reference" "K4"
@@ -3927,7 +3966,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 74.93 130.81 0)
 			(effects
 				(font
@@ -3937,7 +3976,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 130.81 0)
+			(at 74.93 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3945,12 +3984,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch, single pole double throw"
 			(at 74.93 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3996,7 +4036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 143.51 51.562 90)
 			(effects
 				(font
@@ -4014,12 +4054,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 143.51 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4048,7 +4089,7 @@
 		(fields_autoplaced yes)
 		(uuid "38d04da3-a013-4e57-a6cc-a71cca4af1c8")
 		(property "Reference" "P6-1"
-			(at 138.43 93.98 0)
+			(at 138.43 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4056,14 +4097,14 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 138.43 96.52 0)
+			(at 138.43 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 138.43 99.06 0)
 			(effects
 				(font
@@ -4081,12 +4122,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 138.43 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4127,7 +4169,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 74.93 125.095 0)
 			(effects
 				(font
@@ -4145,12 +4187,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 74.93 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4176,7 +4219,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ea787da-9900-4289-88c9-3890023fecdc")
 		(property "Reference" "P6-2"
-			(at 146.05 78.74 90)
+			(at 146.05 78.1049 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4185,7 +4228,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 146.05 81.28 90)
+			(at 146.05 80.6449 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,7 +4236,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 143.51 79.375 0)
 			(effects
 				(font
@@ -4211,12 +4254,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 143.51 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4242,7 +4286,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fb2a24d-d209-4d48-bc07-1fdd792f4c5d")
 		(property "Reference" "K4-1"
-			(at 83.82 137.795 90)
+			(at 83.82 137.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,7 +4295,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 83.82 140.335 90)
+			(at 83.82 139.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4259,7 +4303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 81.28 138.43 0)
 			(effects
 				(font
@@ -4277,12 +4321,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 81.28 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4308,24 +4353,24 @@
 		(fields_autoplaced yes)
 		(uuid "d76d0b3e-319a-4f43-bab3-dc84366f217a")
 		(property "Reference" "K4-3"
-			(at 59.69 135.255 90)
+			(at 66.04 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 59.69 137.795 90)
+			(at 66.04 137.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 62.865 135.89 0)
 			(effects
 				(font
@@ -4343,12 +4388,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 62.865 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4374,7 +4420,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff0ba72c-672c-4267-804f-199fe92d3c37")
 		(property "Reference" "P6-3"
-			(at 151.13 94.615 90)
+			(at 151.13 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4383,7 +4429,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 151.13 97.155 90)
+			(at 151.13 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4391,7 +4437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 148.59 95.25 0)
 			(effects
 				(font
@@ -4409,12 +4455,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 148.59 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"

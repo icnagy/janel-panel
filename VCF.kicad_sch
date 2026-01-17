@@ -631,368 +631,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_NPN_BCE"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NPN_BCE"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "NPN transistor, base/collector/emitter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NPN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_NPN_BCE_0_1"
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Q_NPN_BCE_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Q_PNP_BCE"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_PNP_BCE"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "PNP transistor, base/collector/emitter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor PNP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_PNP_BCE_0_1"
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Q_PNP_BCE_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1253,6 +891,428 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:Q_NPN_BCE"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NPN_BCE"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "NPN transistor, base/collector/emitter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=B 2=C 3=E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NPN_BCE_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NPN_BCE_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:Q_PNP_BCE"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_PNP_BCE"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PNP transistor, base/collector/emitter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "PNP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=B 2=C 3=E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_PNP_BCE_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Q_PNP_BCE_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:BF244A"
 			(pin_names
 				(hide yes)
@@ -1290,7 +1350,7 @@
 				)
 			)
 			(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BF244x.pdf"
-				(at 0 0 0)
+				(at 5.08 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2393,8 +2453,12 @@
 		)
 		(symbol "power:+VSW"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2494,8 +2558,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+VSW"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2515,14 +2578,18 @@
 		)
 		(symbol "power:-VSW"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 2.54 0)
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2531,7 +2598,7 @@
 				)
 			)
 			(property "Value" "-VSW"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2578,8 +2645,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "-VSW"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2613,8 +2679,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2690,8 +2760,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5546,7 +5615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
+		(property "Footprint" ""
 			(at 44.45 74.93 0)
 			(effects
 				(font
@@ -5564,12 +5633,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2MHz, Operational Transconductance Amplifier (OTA), gM spread 1.6:1, DIP-8/SOIC-8"
 			(at 44.45 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5633,7 +5703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
+		(property "Footprint" ""
 			(at 116.84 74.93 0)
 			(effects
 				(font
@@ -5651,12 +5721,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2MHz, Operational Transconductance Amplifier (OTA), gM spread 1.6:1, DIP-8/SOIC-8"
 			(at 116.84 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5719,7 +5790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
+		(property "Footprint" ""
 			(at 219.71 60.96 0)
 			(effects
 				(font
@@ -5737,12 +5808,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2MHz, Operational Transconductance Amplifier (OTA), gM spread 1.6:1, DIP-8/SOIC-8"
 			(at 219.71 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5806,7 +5878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" ""
 			(at 86.995 33.02 0)
 			(effects
 				(font
@@ -5815,7 +5887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ua747.pdf"
+		(property "Datasheet" ""
 			(at 89.535 35.56 0)
 			(effects
 				(font
@@ -5830,6 +5902,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5911,7 +5984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" ""
 			(at 175.26 59.69 0)
 			(effects
 				(font
@@ -5920,7 +5993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ua747.pdf"
+		(property "Datasheet" ""
 			(at 177.8 62.23 0)
 			(effects
 				(font
@@ -5935,6 +6008,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6016,7 +6090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" ""
 			(at 55.88 161.29 0)
 			(effects
 				(font
@@ -6025,7 +6099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ua747.pdf"
+		(property "Datasheet" ""
 			(at 58.42 163.83 0)
 			(effects
 				(font
@@ -6040,6 +6114,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6121,7 +6196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" ""
 			(at 227.965 150.495 0)
 			(effects
 				(font
@@ -6130,7 +6205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ua747.pdf"
+		(property "Datasheet" ""
 			(at 230.505 153.035 0)
 			(effects
 				(font
@@ -6145,6 +6220,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6243,12 +6319,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
 			(at 171.45 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6308,12 +6385,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
 			(at 83.185 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6373,12 +6451,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-VSW\""
 			(at 83.185 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6438,12 +6517,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-VSW\""
 			(at 41.91 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6503,12 +6583,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-VSW\""
 			(at 114.3 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6567,12 +6648,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-VSW\""
 			(at 217.17 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6631,12 +6713,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-VSW\""
 			(at 52.07 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6696,12 +6779,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
 			(at 41.91 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6761,12 +6845,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
 			(at 114.3 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6825,12 +6910,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
 			(at 217.17 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6889,12 +6975,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
 			(at 52.07 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6953,12 +7040,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
 			(at 224.155 159.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7001,7 +7089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 164.338 64.77 90)
 			(effects
 				(font
@@ -7019,12 +7107,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 162.56 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7070,7 +7159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 77.978 39.37 90)
 			(effects
 				(font
@@ -7088,12 +7177,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 76.2 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7156,12 +7246,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 76.2 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7221,12 +7312,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 162.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7267,7 +7359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 21.59 30.988 90)
 			(effects
 				(font
@@ -7285,12 +7377,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 21.59 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7334,7 +7427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 175.26 46.228 90)
 			(effects
 				(font
@@ -7352,12 +7445,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 175.26 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7400,7 +7494,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 189.23 56.642 90)
 			(effects
 				(font
@@ -7418,12 +7512,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 189.23 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7442,7 +7537,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_PNP_BCE")
+		(lib_id "Transistor_BJT:Q_PNP_BCE")
 		(at 236.855 121.285 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7452,7 +7547,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005e7568f5")
 		(property "Reference" "Q24"
-			(at 241.935 120.65 0)
+			(at 242.57 120.0149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7461,7 +7556,7 @@
 			)
 		)
 		(property "Value" "BC214"
-			(at 241.935 123.19 0)
+			(at 242.57 122.5549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7487,12 +7582,31 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PNP transistor, base/collector/emitter"
 			(at 236.855 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 236.855 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=C 3=E"
+			(at 236.855 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7514,7 +7628,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_PNP_BCE")
+		(lib_id "Transistor_BJT:Q_PNP_BCE")
 		(at 257.175 121.285 0)
 		(mirror y)
 		(unit 1)
@@ -7525,7 +7639,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005e757d63")
 		(property "Reference" "Q25"
-			(at 252.095 120.65 0)
+			(at 251.46 120.0149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7534,7 +7648,7 @@
 			)
 		)
 		(property "Value" "BC214"
-			(at 252.095 123.19 0)
+			(at 251.46 122.5549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7560,12 +7674,31 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PNP transistor, base/collector/emitter"
 			(at 257.175 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 257.175 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=C 3=E"
+			(at 257.175 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7587,7 +7720,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_PNP_BCE")
+		(lib_id "Transistor_BJT:Q_PNP_BCE")
 		(at 93.98 119.38 0)
 		(mirror y)
 		(unit 1)
@@ -7632,12 +7765,31 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PNP transistor, base/collector/emitter"
 			(at 93.98 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 93.98 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=C 3=E"
+			(at 93.98 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7659,7 +7811,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_PNP_BCE")
+		(lib_id "Transistor_BJT:Q_PNP_BCE")
 		(at 69.85 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7703,12 +7855,31 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PNP transistor, base/collector/emitter"
 			(at 69.85 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 69.85 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=C 3=E"
+			(at 69.85 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7773,12 +7944,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 44.45 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7837,12 +8009,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 216.535 159.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7882,7 +8055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 46.228 166.37 90)
 			(effects
 				(font
@@ -7900,12 +8073,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 44.45 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7948,7 +8122,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 214.757 155.575 90)
 			(effects
 				(font
@@ -7966,12 +8140,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 216.535 155.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8014,7 +8189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" ""
 			(at 226.695 137.4902 0)
 			(effects
 				(font
@@ -8032,12 +8207,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 230.505 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8080,7 +8256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" ""
 			(at 52.07 144.4752 0)
 			(effects
 				(font
@@ -8098,12 +8274,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 55.88 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8165,12 +8342,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 262.255 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8213,7 +8391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 83.693 142.24 90)
 			(effects
 				(font
@@ -8231,12 +8409,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 81.915 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8281,7 +8460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 246.507 135.255 90)
 			(effects
 				(font
@@ -8299,12 +8478,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 248.285 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8367,12 +8547,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 99.06 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8415,7 +8596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 42.672 90.17 90)
 			(effects
 				(font
@@ -8433,12 +8614,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 44.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8484,7 +8666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 115.062 90.17 90)
 			(effects
 				(font
@@ -8502,12 +8684,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 116.84 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8551,7 +8734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 70.612 107.95 90)
 			(effects
 				(font
@@ -8569,12 +8752,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 72.39 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8637,12 +8821,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-VSW\""
 			(at 72.39 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8664,7 +8849,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e78d4a3")
 		(property "Reference" "P11"
@@ -8685,7 +8870,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 15.24 182.88 0)
 			(effects
 				(font
@@ -8694,7 +8879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 15.24 182.88 0)
 			(effects
 				(font
@@ -8709,6 +8894,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8774,12 +8960,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 15.24 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8820,7 +9007,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 33.02 176.022 90)
 			(effects
 				(font
@@ -8838,12 +9025,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 33.02 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8868,7 +9056,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e79477a")
 		(property "Reference" "P8"
@@ -8889,7 +9077,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 15.24 124.46 0)
 			(effects
 				(font
@@ -8898,7 +9086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 15.24 124.46 0)
 			(effects
 				(font
@@ -8913,6 +9101,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8978,12 +9167,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 15.24 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9024,7 +9214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 33.02 122.682 90)
 			(effects
 				(font
@@ -9042,12 +9232,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 33.02 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9072,7 +9263,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e796260")
 		(property "Reference" "P9"
@@ -9093,7 +9284,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 15.24 142.24 0)
 			(effects
 				(font
@@ -9102,7 +9293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 15.24 142.24 0)
 			(effects
 				(font
@@ -9117,6 +9308,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9183,12 +9375,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 15.24 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9229,7 +9422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 33.02 140.462 90)
 			(effects
 				(font
@@ -9247,12 +9440,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 33.02 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9277,7 +9471,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e799332")
 		(property "Reference" "P10"
@@ -9298,7 +9492,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 15.24 160.02 0)
 			(effects
 				(font
@@ -9307,7 +9501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 15.24 160.02 0)
 			(effects
 				(font
@@ -9322,6 +9516,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9387,12 +9582,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 15.24 164.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9433,7 +9629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 33.02 158.242 90)
 			(effects
 				(font
@@ -9451,12 +9647,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 33.02 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9481,7 +9678,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e79b4d8")
 		(property "Reference" "K7"
@@ -9500,7 +9697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 22.86 112.395 0)
 			(effects
 				(font
@@ -9518,12 +9715,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 22.86 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9567,7 +9765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 33.02 102.362 90)
 			(effects
 				(font
@@ -9585,12 +9783,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 33.02 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9629,12 +9828,11 @@
 			)
 		)
 		(property "Value" "-VSW"
-			(at 12.7 154.94 0)
+			(at 15.24 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9655,12 +9853,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-VSW\""
 			(at 15.24 155.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9720,12 +9919,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
 			(at 15.24 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9767,7 +9967,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" ""
 			(at 28.2448 181.61 0)
 			(effects
 				(font
@@ -9785,12 +9985,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 29.21 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9836,7 +10037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 48.768 182.88 90)
 			(effects
 				(font
@@ -9854,12 +10055,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 46.99 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9922,12 +10124,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 46.99 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9969,7 +10172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 139.7 76.835 0)
 			(effects
 				(font
@@ -9980,8 +10183,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.fairchildsemi.com/ds/BF/BF244A.pdf"
-			(at 134.62 74.93 0)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BF244x.pdf"
+			(at 139.7 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9990,12 +10193,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92"
 			(at 134.62 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10043,7 +10247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 67.31 76.835 0)
 			(effects
 				(font
@@ -10054,8 +10258,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.fairchildsemi.com/ds/BF/BF244A.pdf"
-			(at 62.23 74.93 0)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BF244x.pdf"
+			(at 67.31 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10064,12 +10268,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92"
 			(at 62.23 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10116,7 +10321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 193.675 119.507 90)
 			(effects
 				(font
@@ -10134,12 +10339,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 193.675 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10183,7 +10389,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 203.835 131.953 90)
 			(effects
 				(font
@@ -10201,12 +10407,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 203.835 130.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10251,7 +10458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" ""
 			(at 54.61 80.01 0)
 			(effects
 				(font
@@ -10269,12 +10476,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 54.61 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10336,12 +10544,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 54.61 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10400,12 +10609,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
 			(at 64.77 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10448,7 +10658,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" ""
 			(at 196.215 130.175 0)
 			(effects
 				(font
@@ -10457,7 +10667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 196.215 130.175 0)
 			(effects
 				(font
@@ -10472,6 +10682,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10520,7 +10731,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 32.512 81.28 90)
 			(effects
 				(font
@@ -10538,12 +10749,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 34.29 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10606,12 +10818,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 34.29 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10654,7 +10867,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 24.892 81.28 90)
 			(effects
 				(font
@@ -10672,12 +10885,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 26.67 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10740,12 +10954,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 26.67 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10804,12 +11019,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 196.215 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10869,12 +11085,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-VSW\""
 			(at 196.215 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10916,7 +11133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" ""
 			(at 127 80.01 0)
 			(effects
 				(font
@@ -10934,12 +11151,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 127 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11001,12 +11219,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 127 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11065,12 +11284,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
 			(at 137.16 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11112,7 +11332,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 66.548 84.455 90)
 			(effects
 				(font
@@ -11130,12 +11350,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 64.77 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11180,7 +11401,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 138.938 87.63 90)
 			(effects
 				(font
@@ -11198,12 +11419,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 137.16 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11247,7 +11469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 210.947 139.7 90)
 			(effects
 				(font
@@ -11265,12 +11487,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 212.725 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11332,12 +11555,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 212.725 145.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11359,7 +11583,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e87be52")
 		(property "Reference" "P14"
@@ -11380,7 +11604,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 202.565 106.045 0)
 			(effects
 				(font
@@ -11389,7 +11613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 202.565 106.045 0)
 			(effects
 				(font
@@ -11404,6 +11628,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11468,12 +11693,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 202.565 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11514,7 +11740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 184.785 104.267 90)
 			(effects
 				(font
@@ -11532,12 +11758,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 184.785 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11600,12 +11827,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-VSW\""
 			(at 244.475 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11665,12 +11893,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-VSW\""
 			(at 222.25 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11730,12 +11959,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-VSW\""
 			(at 137.16 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11778,7 +12008,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 104.902 81.28 90)
 			(effects
 				(font
@@ -11796,12 +12026,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 106.68 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11864,12 +12095,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 106.68 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11912,7 +12144,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 95.377 81.28 90)
 			(effects
 				(font
@@ -11930,12 +12162,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 97.155 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11998,12 +12231,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-VSW\""
 			(at 64.77 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12063,12 +12297,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 97.155 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12111,7 +12346,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 239.268 54.61 90)
 			(effects
 				(font
@@ -12129,12 +12364,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 237.49 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12196,12 +12432,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
 			(at 237.49 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12244,7 +12481,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" ""
 			(at 222.25 80.01 0)
 			(effects
 				(font
@@ -12253,7 +12490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 222.25 80.01 0)
 			(effects
 				(font
@@ -12268,6 +12505,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12289,7 +12527,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN_BCE")
+		(lib_id "Transistor_BJT:Q_NPN_BCE")
 		(at 242.57 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12333,12 +12571,31 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NPN transistor, base/collector/emitter"
 			(at 242.57 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 242.57 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=C 3=E"
+			(at 242.57 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12387,7 +12644,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 246.888 78.105 90)
 			(effects
 				(font
@@ -12405,12 +12662,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 245.11 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12473,12 +12731,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-VSW\""
 			(at 245.11 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12537,12 +12796,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
 			(at 245.11 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12564,7 +12824,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e8bd287")
 		(property "Reference" "P16"
@@ -12585,7 +12845,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 267.97 78.105 0)
 			(effects
 				(font
@@ -12594,7 +12854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 267.97 78.105 0)
 			(effects
 				(font
@@ -12609,6 +12869,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12673,12 +12934,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 267.97 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12718,7 +12980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+		(property "Footprint" ""
 			(at 252.73 69.85 0)
 			(effects
 				(font
@@ -12727,7 +12989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 252.73 69.85 0)
 			(effects
 				(font
@@ -12742,6 +13004,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12784,7 +13047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 61.595 54.102 90)
 			(effects
 				(font
@@ -12802,12 +13065,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 61.595 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12852,7 +13116,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 75.438 64.77 90)
 			(effects
 				(font
@@ -12870,12 +13134,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 73.66 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12904,7 +13169,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005e8e0817")
 		(property "Reference" "R108"
-			(at 64.135 14.605 90)
+			(at 64.135 13.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12912,14 +13177,14 @@
 			)
 		)
 		(property "Value" "39k"
-			(at 64.135 17.145 90)
+			(at 64.135 16.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 64.135 17.907 90)
 			(effects
 				(font
@@ -12937,12 +13202,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 64.135 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12971,7 +13237,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005e8e0ccf")
 		(property "Reference" "C22"
-			(at 64.1286 29.21 90)
+			(at 64.1286 16.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12979,14 +13245,14 @@
 			)
 		)
 		(property "Value" "33nF"
-			(at 64.1286 31.75 90)
+			(at 64.1286 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" ""
 			(at 64.135 23.495 0)
 			(effects
 				(font
@@ -13004,12 +13270,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 64.135 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13052,7 +13319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 214.63 78.232 90)
 			(effects
 				(font
@@ -13070,12 +13337,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 214.63 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13100,7 +13368,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e8f4d26")
 		(property "Reference" "P12"
@@ -13121,7 +13389,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 73.66 55.88 0)
 			(effects
 				(font
@@ -13130,7 +13398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 73.66 55.88 0)
 			(effects
 				(font
@@ -13145,6 +13413,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13191,7 +13460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 90.17 70.612 90)
 			(effects
 				(font
@@ -13209,12 +13478,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 90.17 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13239,7 +13509,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e903960")
 		(property "Reference" "K8"
@@ -13258,7 +13528,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 135.255 41.91 0)
 			(effects
 				(font
@@ -13276,12 +13546,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 135.255 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13324,7 +13595,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 158.75 40.132 90)
 			(effects
 				(font
@@ -13342,12 +13613,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 158.75 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13410,12 +13682,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 73.66 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13437,7 +13710,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e971bdd")
 		(property "Reference" "K10"
@@ -13456,7 +13729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 135.255 22.86 0)
 			(effects
 				(font
@@ -13474,12 +13747,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 135.255 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13522,7 +13796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 158.75 21.082 90)
 			(effects
 				(font
@@ -13540,12 +13814,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 158.75 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13570,7 +13845,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e973bff")
 		(property "Reference" "K9"
@@ -13589,7 +13864,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 135.255 31.75 0)
 			(effects
 				(font
@@ -13607,12 +13882,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 135.255 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13655,7 +13931,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 158.75 29.972 90)
 			(effects
 				(font
@@ -13673,12 +13949,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 158.75 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13721,7 +13998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 259.08 68.072 90)
 			(effects
 				(font
@@ -13739,12 +14016,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 259.08 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13768,7 +14046,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e9d1fa7")
 		(property "Reference" "JP1"
@@ -13787,7 +14065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 275.59 78.105 0)
 			(effects
 				(font
@@ -13796,7 +14074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 275.59 78.105 0)
 			(effects
 				(font
@@ -13811,6 +14089,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13872,12 +14151,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 278.765 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13920,7 +14200,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 24.892 59.69 90)
 			(effects
 				(font
@@ -13938,12 +14218,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 26.67 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13989,7 +14270,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 24.892 40.64 90)
 			(effects
 				(font
@@ -14007,12 +14288,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 26.67 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14057,7 +14339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" ""
 			(at 30.48 59.69 0)
 			(effects
 				(font
@@ -14075,12 +14357,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 30.48 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14142,12 +14425,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 203.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14206,12 +14490,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 194.31 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14254,7 +14539,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 196.088 72.39 90)
 			(effects
 				(font
@@ -14272,12 +14557,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 194.31 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14323,7 +14609,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 204.978 72.39 90)
 			(effects
 				(font
@@ -14341,12 +14627,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 203.2 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14392,7 +14679,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 221.488 49.53 90)
 			(effects
 				(font
@@ -14410,12 +14697,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 219.71 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14477,12 +14765,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
 			(at 222.25 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14523,7 +14812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" ""
 			(at 237.617 111.125 90)
 			(effects
 				(font
@@ -14541,12 +14830,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 239.395 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14575,24 +14865,24 @@
 		(fields_autoplaced yes)
 		(uuid "0f59acbf-1f0f-4fba-9a4f-989596a6d5cb")
 		(property "Reference" "K9-1"
-			(at 120.65 36.195 90)
+			(at 127 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 120.65 38.735 90)
+			(at 127 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 123.825 36.83 0)
 			(effects
 				(font
@@ -14610,12 +14900,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 123.825 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14641,7 +14932,7 @@
 		(fields_autoplaced yes)
 		(uuid "14a51135-8f49-4428-9292-83253c2688f5")
 		(property "Reference" "P12-2"
-			(at 81.28 59.69 0)
+			(at 81.28 59.0549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14650,7 +14941,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 81.28 62.23 0)
+			(at 81.28 61.5949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14658,7 +14949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 78.74 60.325 0)
 			(effects
 				(font
@@ -14676,12 +14967,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 78.74 60.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14707,7 +14999,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b8397c2-303f-4b42-8e5b-af3ea74d162a")
 		(property "Reference" "P8-3"
-			(at 29.21 128.905 90)
+			(at 29.21 128.2699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14716,7 +15008,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 29.21 131.445 90)
+			(at 29.21 130.8099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14724,7 +15016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 26.035 129.54 0)
 			(effects
 				(font
@@ -14742,12 +15034,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 26.035 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14773,7 +15066,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d3975a2-8160-4baf-9ba9-0b6ac4deffe0")
 		(property "Reference" "K8-1"
-			(at 147.32 46.355 90)
+			(at 147.32 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14782,7 +15075,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 147.32 48.895 90)
+			(at 147.32 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14790,7 +15083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 144.145 46.99 0)
 			(effects
 				(font
@@ -14808,12 +15101,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 144.145 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14839,24 +15133,24 @@
 		(fields_autoplaced yes)
 		(uuid "426f8d84-91ea-4def-82da-600139e8abde")
 		(property "Reference" "P14-3"
-			(at 193.04 110.49 90)
+			(at 199.39 109.8549 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 193.04 113.03 90)
+			(at 199.39 112.3949 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 196.215 111.125 0)
 			(effects
 				(font
@@ -14874,12 +15168,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 196.215 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14905,7 +15200,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fec7524-0577-4da9-bfc4-c62b145cac9d")
 		(property "Reference" "K9-2"
-			(at 146.05 26.035 90)
+			(at 146.05 25.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14914,7 +15209,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 146.05 28.575 90)
+			(at 146.05 27.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14922,7 +15217,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 143.51 26.67 0)
 			(effects
 				(font
@@ -14940,12 +15235,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 143.51 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14971,7 +15267,7 @@
 		(fields_autoplaced yes)
 		(uuid "60ebe83b-10ec-4f10-9aa7-56c9d118f516")
 		(property "Reference" "P11-3"
-			(at 22.86 177.165 90)
+			(at 22.86 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14980,7 +15276,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 22.86 179.705 90)
+			(at 22.86 179.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14988,7 +15284,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 20.32 177.8 0)
 			(effects
 				(font
@@ -15006,12 +15302,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 20.32 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15037,7 +15334,7 @@
 		(fields_autoplaced yes)
 		(uuid "6cd4ab6c-1af5-4f69-8a13-d4277275fdc5")
 		(property "Reference" "K7-2"
-			(at 17.78 98.425 90)
+			(at 17.78 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15046,7 +15343,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 17.78 100.965 90)
+			(at 17.78 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15054,7 +15351,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 15.24 99.06 0)
 			(effects
 				(font
@@ -15072,12 +15369,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 15.24 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15103,24 +15401,24 @@
 		(fields_autoplaced yes)
 		(uuid "708315a9-7619-4c8b-8568-049557e408d8")
 		(property "Reference" "P12-3"
-			(at 64.77 60.325 90)
+			(at 69.85 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 64.77 62.865 90)
+			(at 69.85 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 67.31 60.96 0)
 			(effects
 				(font
@@ -15138,12 +15436,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 67.31 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15169,7 +15468,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d7180d7-7ceb-40c7-bb2e-f68c23593b67")
 		(property "Reference" "P14-1"
-			(at 205.74 93.98 90)
+			(at 205.74 93.3449 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15178,7 +15477,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 205.74 96.52 90)
+			(at 205.74 95.8849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15186,7 +15485,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 202.565 94.615 0)
 			(effects
 				(font
@@ -15204,12 +15503,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 202.565 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15235,7 +15535,7 @@
 		(fields_autoplaced yes)
 		(uuid "8482223e-dd12-48d3-94b0-86f6d69574b9")
 		(property "Reference" "P9-1"
-			(at 22.86 135.255 0)
+			(at 22.86 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15244,7 +15544,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 22.86 137.795 0)
+			(at 22.86 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15252,7 +15552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 20.32 135.89 0)
 			(effects
 				(font
@@ -15270,12 +15570,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 20.32 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15301,7 +15602,7 @@
 		(fields_autoplaced yes)
 		(uuid "85f76795-3eb0-4310-89f7-412a3f72c50d")
 		(property "Reference" "K8-2"
-			(at 127 46.355 90)
+			(at 127 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15310,7 +15611,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 127 48.895 90)
+			(at 127 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15318,7 +15619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 123.825 46.99 0)
 			(effects
 				(font
@@ -15336,12 +15637,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 123.825 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15367,7 +15669,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d33505b-e9bf-4172-9d88-982df308ee65")
 		(property "Reference" "K10-2"
-			(at 146.05 17.145 90)
+			(at 146.05 16.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15376,7 +15678,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 146.05 19.685 90)
+			(at 146.05 19.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15384,7 +15686,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 143.51 17.78 0)
 			(effects
 				(font
@@ -15402,12 +15704,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 143.51 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15433,7 +15736,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d8079ac-95e0-4b33-9bb7-07dec316aa48")
 		(property "Reference" "P9-3"
-			(at 24.765 146.685 90)
+			(at 24.13 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15442,7 +15745,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 24.765 149.225 90)
+			(at 24.13 148.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15450,7 +15753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 21.59 147.32 0)
 			(effects
 				(font
@@ -15468,12 +15771,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 21.59 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15499,7 +15803,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3fe42d2-bc60-4308-821c-32368370848b")
 		(property "Reference" "P12-1"
-			(at 68.58 45.72 0)
+			(at 68.58 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15507,14 +15811,14 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 68.58 48.26 0)
+			(at 68.58 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 68.58 50.8 0)
 			(effects
 				(font
@@ -15532,12 +15836,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 68.58 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15563,7 +15868,7 @@
 		(fields_autoplaced yes)
 		(uuid "aef9db44-dfa5-41bf-80cc-c52283b02af6")
 		(property "Reference" "P8-1"
-			(at 22.86 118.11 0)
+			(at 22.86 117.4749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15572,7 +15877,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 22.86 120.65 0)
+			(at 22.86 120.0149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15580,7 +15885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 20.32 118.745 0)
 			(effects
 				(font
@@ -15598,12 +15903,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 20.32 118.745 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15629,22 +15935,24 @@
 		(fields_autoplaced yes)
 		(uuid "c1dc8b24-20e8-4dee-8aad-9f58f9f35f0f")
 		(property "Reference" "K7-1"
-			(at 28.575 93.98 90)
+			(at 31.75 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 28.575 96.52 90)
+			(at 31.75 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 28.575 99.06 0)
 			(effects
 				(font
@@ -15662,12 +15970,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 28.575 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15693,7 +16002,7 @@
 		(fields_autoplaced yes)
 		(uuid "d40deebf-2b5a-4bd5-96ab-edcbf313ec81")
 		(property "Reference" "P10-3"
-			(at 24.13 164.465 90)
+			(at 24.13 163.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15702,7 +16011,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 24.13 167.005 90)
+			(at 24.13 166.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15710,7 +16019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 21.59 165.1 0)
 			(effects
 				(font
@@ -15728,12 +16037,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 21.59 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15759,7 +16069,7 @@
 		(fields_autoplaced yes)
 		(uuid "d93d14a2-7bf6-4ae3-b799-71f378904791")
 		(property "Reference" "P13-1"
-			(at 270.51 64.135 90)
+			(at 270.51 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15768,7 +16078,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 270.51 66.675 90)
+			(at 270.51 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15776,7 +16086,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 267.97 64.77 0)
 			(effects
 				(font
@@ -15794,12 +16104,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 267.97 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15825,22 +16136,24 @@
 		(fields_autoplaced yes)
 		(uuid "df4832ca-99ac-4e00-97f9-dc61465f8fbc")
 		(property "Reference" "K10-1"
-			(at 123.825 12.7 90)
+			(at 127 16.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 123.825 15.24 90)
+			(at 127 19.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 123.825 17.78 0)
 			(effects
 				(font
@@ -15858,12 +16171,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 123.825 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"

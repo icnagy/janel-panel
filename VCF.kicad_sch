@@ -2779,6 +2779,66 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "BP"
+		(exclude_from_sim no)
+		(at 110.998 30.988 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "29ecc2f4-e806-41b5-ab1b-b216ff1e789d")
+	)
+	(text "RESONANCE"
+		(exclude_from_sim no)
+		(at 53.086 57.658 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3298c9d0-129d-4f19-a142-01359481536e")
+	)
+	(text "CUTOFF"
+		(exclude_from_sim no)
+		(at 20.574 155.956 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6caa8874-51cb-441d-bccc-8f07314fcf59")
+	)
+	(text "LP"
+		(exclude_from_sim no)
+		(at 111.252 40.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6caaa96d-2ef1-4ce5-b40c-674e1cf23918")
+	)
+	(text "VCF MIN"
+		(exclude_from_sim no)
+		(at 20.828 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "76126a38-8e2c-4934-aa58-f2270f049577")
+	)
+	(text "HP"
+		(exclude_from_sim no)
+		(at 110.998 22.098 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fc7cc4d8-0948-45bd-99b4-46471b3fe2d9")
+	)
 	(junction
 		(at 137.16 81.915)
 		(diameter 0)
@@ -2822,6 +2882,12 @@
 		(uuid "1f006271-779e-498e-a47c-48a474262ba7")
 	)
 	(junction
+		(at 114.3 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "208eb699-0edb-4da9-88d2-05e211f614b4")
+	)
+	(junction
 		(at 96.52 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2852,12 +2918,6 @@
 		(uuid "3bf2f881-8e4e-4b3b-8942-533cb350a429")
 	)
 	(junction
-		(at 143.51 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3cd38d00-af61-434a-a1b2-170b9e91e566")
-	)
-	(junction
 		(at 209.55 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2868,6 +2928,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "408a00e7-4aa0-4aeb-8742-c8e1f8d2d4a3")
+	)
+	(junction
+		(at 140.97 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40eceb1a-eddb-42af-b9b9-a1fad1405fc3")
 	)
 	(junction
 		(at 196.215 106.045)
@@ -2894,6 +2960,12 @@
 		(uuid "508d9283-986d-4594-a52f-3cad011c39aa")
 	)
 	(junction
+		(at 114.3 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53851428-2ebe-423a-b13f-4d1d5a9eaf37")
+	)
+	(junction
 		(at 267.97 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2910,6 +2982,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56a5afbf-3fee-4a79-8d6a-fb0330547f96")
+	)
+	(junction
+		(at 140.97 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58f5f3d5-b9ed-4790-bec3-bd2ae294fb5c")
 	)
 	(junction
 		(at 15.24 135.89)
@@ -2942,22 +3020,10 @@
 		(uuid "7dcf9c18-b398-4c9d-a918-46efe81c9266")
 	)
 	(junction
-		(at 162.56 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85eb7702-b432-47b3-ad0e-bba8b53eba19")
-	)
-	(junction
 		(at 29.21 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86c7ef0a-da36-4967-b411-b40dbe0cf381")
-	)
-	(junction
-		(at 123.825 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d297af2-43bc-4073-9883-adb9146e85d7")
 	)
 	(junction
 		(at 54.61 74.93)
@@ -2972,10 +3038,10 @@
 		(uuid "9a6e66c1-9dda-4725-8e50-58d3e012ae9f")
 	)
 	(junction
-		(at 143.51 22.86)
+		(at 140.97 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9d5e51ae-174e-4a1a-9b60-67fa92fe8c2c")
+		(uuid "9d1396f8-6384-4418-a629-c73e49b01d52")
 	)
 	(junction
 		(at 64.77 80.01)
@@ -3026,12 +3092,6 @@
 		(uuid "b0320796-a075-4b70-9bef-2a1d4fdc07be")
 	)
 	(junction
-		(at 144.145 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5542d4e-a3e4-4e71-9bd0-881b79cdb0ef")
-	)
-	(junction
 		(at 36.83 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3048,6 +3108,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2d3af69-7fdc-4f8e-9aa3-b47ccd53aedd")
+	)
+	(junction
+		(at 162.56 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3d25e7c-c4be-4895-94b5-6c4e0ff74f50")
 	)
 	(junction
 		(at 69.85 160.02)
@@ -3104,18 +3170,6 @@
 		(uuid "e96e8f69-3245-4550-9b05-b6b8655db439")
 	)
 	(junction
-		(at 123.825 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9fa2bf2-b237-4f60-aee4-a68b04d7f5e6")
-	)
-	(junction
-		(at 123.825 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb2b6dab-3272-4966-8899-db5cfec367fa")
-	)
-	(junction
 		(at 36.83 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3144,6 +3198,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f497080f-43ed-4ce4-be74-6e995a69ba4e")
+	)
+	(junction
+		(at 114.3 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f91e7011-e6c7-43c1-8b5b-46d1442910cb")
 	)
 	(junction
 		(at 44.45 143.51)
@@ -3369,6 +3429,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 31.75) (xy 158.75 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14068069-a53d-45b6-b3bb-8ca71233e10f")
+	)
+	(wire
+		(pts
 			(xy 26.035 124.46) (xy 29.21 124.46)
 		)
 		(stroke
@@ -3549,7 +3619,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.825 31.75) (xy 100.965 31.75)
+			(xy 114.3 31.75) (xy 128.27 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3666,16 +3736,6 @@
 			(type default)
 		)
 		(uuid "3de66e61-dd91-4771-9251-aa7b99ce844c")
-	)
-	(wire
-		(pts
-			(xy 123.825 22.86) (xy 130.175 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fa529be-829a-4e0a-8787-0252864d9be1")
 	)
 	(wire
 		(pts
@@ -3899,7 +3959,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.335 22.86) (xy 143.51 22.86)
+			(xy 138.43 22.86) (xy 140.97 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3909,7 +3969,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 22.86) (xy 123.825 22.86)
+			(xy 96.52 22.86) (xy 114.3 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3969,13 +4029,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.825 31.75) (xy 130.175 31.75)
+			(xy 158.75 41.91) (xy 162.56 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c4c98e3-aad8-4b2f-acdf-e618a63fa6f5")
+		(uuid "5cf1e69a-be0e-4052-844d-3d6a854e5cc0")
 	)
 	(wire
 		(pts
@@ -4039,7 +4099,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.335 41.91) (xy 144.145 41.91)
+			(xy 114.3 41.91) (xy 128.27 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634973a5-d2a4-4bf3-901d-b5c3ed8c9f0b")
+	)
+	(wire
+		(pts
+			(xy 138.43 41.91) (xy 140.97 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4156,6 +4226,16 @@
 			(type default)
 		)
 		(uuid "735ff666-b3d0-47fb-bd63-7abbcc739b3c")
+	)
+	(wire
+		(pts
+			(xy 20.32 179.07) (xy 20.32 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73632271-c664-40e7-9925-c2a2bdcbede5")
 	)
 	(wire
 		(pts
@@ -4329,16 +4409,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.145 41.91) (xy 154.94 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "857cddff-cbb3-465f-a50a-d867712f5c02")
-	)
-	(wire
-		(pts
 			(xy 237.49 60.96) (xy 237.49 58.42)
 		)
 		(stroke
@@ -4436,16 +4506,6 @@
 			(type default)
 		)
 		(uuid "8f914260-2858-40c9-8221-3bacdb26106f")
-	)
-	(wire
-		(pts
-			(xy 143.51 22.86) (xy 154.94 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90f174d4-3ebe-4198-80fe-e3c7b3f36766")
 	)
 	(wire
 		(pts
@@ -4639,6 +4699,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 31.75) (xy 100.965 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28a493c-a4b9-4e02-9954-dcb23604009c")
+	)
+	(wire
+		(pts
 			(xy 36.83 160.02) (xy 36.83 142.24)
 		)
 		(stroke
@@ -4676,16 +4746,6 @@
 			(type default)
 		)
 		(uuid "ab9eb831-ad32-42bb-8a67-61788fb3dc58")
-	)
-	(wire
-		(pts
-			(xy 143.51 31.75) (xy 154.94 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad6587de-c4da-4629-a72a-7be43ad23a41")
 	)
 	(wire
 		(pts
@@ -4769,7 +4829,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 41.91) (xy 123.825 41.91)
+			(xy 106.045 41.91) (xy 114.3 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4869,6 +4929,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 31.75) (xy 151.13 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6891d38-8cb8-4454-93d3-952d0ddf27f9")
+	)
+	(wire
+		(pts
 			(xy 193.04 58.42) (xy 194.31 58.42)
 		)
 		(stroke
@@ -4949,6 +5019,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 22.86) (xy 151.13 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7fc6d4-feee-4901-b4be-5f00a067b2d7")
+	)
+	(wire
+		(pts
 			(xy 137.16 81.915) (xy 137.16 80.01)
 		)
 		(stroke
@@ -4986,16 +5066,6 @@
 			(type default)
 		)
 		(uuid "d0604d2e-22b2-4528-9fad-fab17b531bb4")
-	)
-	(wire
-		(pts
-			(xy 123.825 41.91) (xy 130.175 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d203516e-9f36-4625-9fb1-19b59eed1a4d")
 	)
 	(wire
 		(pts
@@ -5169,6 +5239,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 41.91) (xy 151.13 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b55209-c5c2-4cc7-a737-7908c102b9bc")
+	)
+	(wire
+		(pts
 			(xy 212.725 121.285) (xy 197.485 121.285)
 		)
 		(stroke
@@ -5239,7 +5319,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.335 31.75) (xy 143.51 31.75)
+			(xy 114.3 22.86) (xy 128.27 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef90cf99-b39c-4157-b0e8-80fdda1a537f")
+	)
+	(wire
+		(pts
+			(xy 138.43 31.75) (xy 140.97 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5306,6 +5396,16 @@
 			(type default)
 		)
 		(uuid "f8e33ee0-50a4-4536-bab4-98c14c9b67ae")
+	)
+	(wire
+		(pts
+			(xy 162.56 22.86) (xy 158.75 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8fc275c-3ed1-4239-8207-759e5398fac8")
 	)
 	(wire
 		(pts
@@ -5615,7 +5715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
 			(at 44.45 74.93 0)
 			(effects
 				(font
@@ -5703,7 +5803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
 			(at 116.84 74.93 0)
 			(effects
 				(font
@@ -5790,7 +5890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
 			(at 219.71 60.96 0)
 			(effects
 				(font
@@ -5878,7 +5978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 86.995 33.02 0)
 			(effects
 				(font
@@ -5984,7 +6084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 175.26 59.69 0)
 			(effects
 				(font
@@ -6090,7 +6190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 55.88 161.29 0)
 			(effects
 				(font
@@ -6196,7 +6296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 227.965 150.495 0)
 			(effects
 				(font
@@ -7089,7 +7189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 164.338 64.77 90)
 			(effects
 				(font
@@ -7159,7 +7259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 77.978 39.37 90)
 			(effects
 				(font
@@ -7359,7 +7459,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 21.59 30.988 90)
 			(effects
 				(font
@@ -7427,7 +7527,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 175.26 46.228 90)
 			(effects
 				(font
@@ -7494,7 +7594,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 189.23 56.642 90)
 			(effects
 				(font
@@ -8055,7 +8155,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 46.228 166.37 90)
 			(effects
 				(font
@@ -8122,7 +8222,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 214.757 155.575 90)
 			(effects
 				(font
@@ -8189,7 +8289,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 226.695 137.4902 0)
 			(effects
 				(font
@@ -8256,7 +8356,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 52.07 144.4752 0)
 			(effects
 				(font
@@ -8391,7 +8491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 83.693 142.24 90)
 			(effects
 				(font
@@ -8460,7 +8560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 246.507 135.255 90)
 			(effects
 				(font
@@ -8596,7 +8696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 42.672 90.17 90)
 			(effects
 				(font
@@ -8666,7 +8766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 115.062 90.17 90)
 			(effects
 				(font
@@ -8734,7 +8834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 70.612 107.95 90)
 			(effects
 				(font
@@ -9007,7 +9107,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 33.02 176.022 90)
 			(effects
 				(font
@@ -9056,7 +9156,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e79477a")
 		(property "Reference" "P8"
@@ -9214,7 +9314,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 33.02 122.682 90)
 			(effects
 				(font
@@ -9263,7 +9363,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e796260")
 		(property "Reference" "P9"
@@ -9422,7 +9522,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 33.02 140.462 90)
 			(effects
 				(font
@@ -9471,7 +9571,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e799332")
 		(property "Reference" "P10"
@@ -9629,7 +9729,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 33.02 158.242 90)
 			(effects
 				(font
@@ -9678,7 +9778,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e79b4d8")
 		(property "Reference" "K7"
@@ -9765,7 +9865,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 33.02 102.362 90)
 			(effects
 				(font
@@ -9967,7 +10067,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 28.2448 181.61 0)
 			(effects
 				(font
@@ -10037,7 +10137,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 48.768 182.88 90)
 			(effects
 				(font
@@ -10172,7 +10272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 139.7 76.835 0)
 			(effects
 				(font
@@ -10321,7 +10421,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 193.675 119.507 90)
 			(effects
 				(font
@@ -10389,7 +10489,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 203.835 131.953 90)
 			(effects
 				(font
@@ -10458,7 +10558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 54.61 80.01 0)
 			(effects
 				(font
@@ -10658,7 +10758,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 196.215 130.175 0)
 			(effects
 				(font
@@ -10731,7 +10831,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 32.512 81.28 90)
 			(effects
 				(font
@@ -10867,7 +10967,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 24.892 81.28 90)
 			(effects
 				(font
@@ -11133,7 +11233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 127 80.01 0)
 			(effects
 				(font
@@ -11332,7 +11432,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 66.548 84.455 90)
 			(effects
 				(font
@@ -11401,7 +11501,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 138.938 87.63 90)
 			(effects
 				(font
@@ -11469,7 +11569,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 210.947 139.7 90)
 			(effects
 				(font
@@ -11740,7 +11840,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 184.785 104.267 90)
 			(effects
 				(font
@@ -12008,7 +12108,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 104.902 81.28 90)
 			(effects
 				(font
@@ -12144,7 +12244,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 95.377 81.28 90)
 			(effects
 				(font
@@ -12346,7 +12446,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 239.268 54.61 90)
 			(effects
 				(font
@@ -12481,7 +12581,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 222.25 80.01 0)
 			(effects
 				(font
@@ -12644,7 +12744,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 246.888 78.105 90)
 			(effects
 				(font
@@ -12980,7 +13080,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
 			(at 252.73 69.85 0)
 			(effects
 				(font
@@ -13047,7 +13147,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 61.595 54.102 90)
 			(effects
 				(font
@@ -13116,7 +13216,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 75.438 64.77 90)
 			(effects
 				(font
@@ -13184,7 +13284,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 64.135 17.907 90)
 			(effects
 				(font
@@ -13252,7 +13352,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 64.135 23.495 0)
 			(effects
 				(font
@@ -13319,7 +13419,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 214.63 78.232 90)
 			(effects
 				(font
@@ -13460,7 +13560,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 90.17 70.612 90)
 			(effects
 				(font
@@ -13504,16 +13604,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 135.255 41.91 0)
+		(at 133.35 41.91 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e903960")
 		(property "Reference" "K8"
-			(at 135.255 35.941 0)
+			(at 133.35 35.941 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13521,7 +13621,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 135.255 38.2524 0)
+			(at 133.35 38.2524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13529,7 +13629,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.255 41.91 0)
+			(at 133.35 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13538,7 +13638,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.255 41.91 0)
+			(at 133.35 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13547,7 +13647,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 135.255 41.91 0)
+			(at 133.35 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13572,7 +13672,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 41.91 270)
+		(at 154.94 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13580,7 +13680,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e908541")
 		(property "Reference" "R123"
-			(at 158.75 36.6522 90)
+			(at 154.94 36.6522 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13588,15 +13688,15 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 158.75 38.9636 90)
+			(at 154.94 38.9636 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 158.75 40.132 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+			(at 154.94 40.132 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13605,7 +13705,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 41.91 0)
+			(at 154.94 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13614,7 +13714,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 41.91 0)
+			(at 154.94 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13705,16 +13805,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 135.255 22.86 0)
+		(at 133.35 22.86 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e971bdd")
 		(property "Reference" "K10"
-			(at 135.255 16.891 0)
+			(at 133.35 16.891 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13722,7 +13822,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 135.255 19.2024 0)
+			(at 133.35 19.2024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13730,7 +13830,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.255 22.86 0)
+			(at 133.35 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13739,7 +13839,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.255 22.86 0)
+			(at 133.35 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13748,7 +13848,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 135.255 22.86 0)
+			(at 133.35 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13773,7 +13873,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 22.86 270)
+		(at 154.94 22.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13781,7 +13881,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e971be3")
 		(property "Reference" "R121"
-			(at 158.75 17.6022 90)
+			(at 154.94 17.6022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13789,15 +13889,15 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 158.75 19.9136 90)
+			(at 154.94 19.9136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 158.75 21.082 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+			(at 154.94 21.082 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13806,7 +13906,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 22.86 0)
+			(at 154.94 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13815,7 +13915,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 22.86 0)
+			(at 154.94 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13840,16 +13940,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 135.255 31.75 0)
+		(at 133.35 31.75 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e973bff")
 		(property "Reference" "K9"
-			(at 135.255 25.781 0)
+			(at 133.35 25.781 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13857,7 +13957,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 135.255 28.0924 0)
+			(at 133.35 28.0924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13865,7 +13965,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.255 31.75 0)
+			(at 133.35 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13874,7 +13974,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.255 31.75 0)
+			(at 133.35 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13883,7 +13983,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 135.255 31.75 0)
+			(at 133.35 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13908,7 +14008,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 31.75 270)
+		(at 154.94 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13916,7 +14016,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e973c05")
 		(property "Reference" "R122"
-			(at 158.75 26.4922 90)
+			(at 154.94 26.4922 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13924,15 +14024,15 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 158.75 28.8036 90)
+			(at 154.94 28.8036 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 158.75 29.972 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+			(at 154.94 29.972 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13941,7 +14041,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 31.75 0)
+			(at 154.94 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13950,7 +14050,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 31.75 0)
+			(at 154.94 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13998,7 +14098,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 259.08 68.072 90)
 			(effects
 				(font
@@ -14200,7 +14300,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 24.892 59.69 90)
 			(effects
 				(font
@@ -14270,7 +14370,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 24.892 40.64 90)
 			(effects
 				(font
@@ -14339,7 +14439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 30.48 59.69 0)
 			(effects
 				(font
@@ -14539,7 +14639,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 196.088 72.39 90)
 			(effects
 				(font
@@ -14609,7 +14709,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 204.978 72.39 90)
 			(effects
 				(font
@@ -14679,7 +14779,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 221.488 49.53 90)
 			(effects
 				(font
@@ -14812,7 +14912,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 237.617 111.125 90)
 			(effects
 				(font
@@ -14856,7 +14956,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 123.825 36.83 270)
+		(at 114.3 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14865,7 +14965,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f59acbf-1f0f-4fba-9a4f-989596a6d5cb")
 		(property "Reference" "K9-1"
-			(at 127 35.5599 90)
+			(at 117.475 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14874,7 +14974,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 127 38.0999 90)
+			(at 117.475 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14882,8 +14982,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 123.825 36.83 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 114.3 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14892,7 +14992,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.825 36.83 0)
+			(at 114.3 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14901,7 +15001,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 123.825 36.83 0)
+			(at 114.3 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14949,7 +15049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 78.74 60.325 0)
 			(effects
 				(font
@@ -15016,7 +15116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 26.035 129.54 0)
 			(effects
 				(font
@@ -15057,7 +15157,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 144.145 46.99 270)
+		(at 140.97 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15066,7 +15166,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d3975a2-8160-4baf-9ba9-0b6ac4deffe0")
 		(property "Reference" "K8-1"
-			(at 147.32 45.7199 90)
+			(at 144.145 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15075,7 +15175,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 147.32 48.2599 90)
+			(at 144.145 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15083,8 +15183,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 144.145 46.99 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 140.97 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15093,7 +15193,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.145 46.99 0)
+			(at 140.97 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15102,7 +15202,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 144.145 46.99 0)
+			(at 140.97 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15150,7 +15250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 196.215 111.125 0)
 			(effects
 				(font
@@ -15191,16 +15291,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 143.51 26.67 90)
+		(at 140.97 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4fec7524-0577-4da9-bfc4-c62b145cac9d")
 		(property "Reference" "K9-2"
-			(at 146.05 25.3999 90)
+			(at 139.954 33.782 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15209,7 +15308,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 146.05 27.9399 90)
+			(at 138.43 36.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15217,8 +15316,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 143.51 26.67 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 140.97 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15227,7 +15326,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 26.67 0)
+			(at 140.97 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15236,7 +15335,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 143.51 26.67 0)
+			(at 140.97 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15258,7 +15357,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 20.32 177.8 90)
+		(at 20.32 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15267,7 +15366,7 @@
 		(fields_autoplaced yes)
 		(uuid "60ebe83b-10ec-4f10-9aa7-56c9d118f516")
 		(property "Reference" "P11-3"
-			(at 22.86 176.5299 90)
+			(at 22.86 172.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15276,7 +15375,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 22.86 179.0699 90)
+			(at 22.86 175.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15284,8 +15383,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 20.32 177.8 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 20.32 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15294,7 +15393,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 177.8 0)
+			(at 20.32 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15303,7 +15402,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 20.32 177.8 0)
+			(at 20.32 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15351,7 +15450,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 15.24 99.06 0)
 			(effects
 				(font
@@ -15398,10 +15497,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "708315a9-7619-4c8b-8568-049557e408d8")
 		(property "Reference" "P12-3"
-			(at 69.85 59.6899 90)
+			(at 57.658 59.182 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15410,7 +15508,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 69.85 62.2299 90)
+			(at 53.594 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15418,7 +15516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 67.31 60.96 0)
 			(effects
 				(font
@@ -15485,7 +15583,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 202.565 94.615 0)
 			(effects
 				(font
@@ -15552,7 +15650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 20.32 135.89 0)
 			(effects
 				(font
@@ -15593,7 +15691,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 123.825 46.99 270)
+		(at 114.3 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15602,7 +15700,7 @@
 		(fields_autoplaced yes)
 		(uuid "85f76795-3eb0-4310-89f7-412a3f72c50d")
 		(property "Reference" "K8-2"
-			(at 127 45.7199 90)
+			(at 117.475 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15611,7 +15709,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 127 48.2599 90)
+			(at 117.475 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15619,8 +15717,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 123.825 46.99 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 114.3 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15629,7 +15727,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.825 46.99 0)
+			(at 114.3 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15638,7 +15736,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 123.825 46.99 0)
+			(at 114.3 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15660,7 +15758,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 143.51 17.78 90)
+		(at 140.97 17.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15669,25 +15767,23 @@
 		(fields_autoplaced yes)
 		(uuid "8d33505b-e9bf-4172-9d88-982df308ee65")
 		(property "Reference" "K10-2"
-			(at 146.05 16.5099 90)
+			(at 140.97 11.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 146.05 19.0499 90)
+			(at 140.97 13.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 143.51 17.78 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 140.97 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15696,7 +15792,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 17.78 0)
+			(at 140.97 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15705,7 +15801,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 143.51 17.78 0)
+			(at 140.97 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15753,7 +15849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 21.59 147.32 0)
 			(effects
 				(font
@@ -15818,7 +15914,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 68.58 50.8 0)
 			(effects
 				(font
@@ -15885,7 +15981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 20.32 118.745 0)
 			(effects
 				(font
@@ -15952,7 +16048,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 28.575 99.06 0)
 			(effects
 				(font
@@ -16019,7 +16115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 21.59 165.1 0)
 			(effects
 				(font
@@ -16086,7 +16182,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 267.97 64.77 0)
 			(effects
 				(font
@@ -16127,7 +16223,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 123.825 17.78 90)
+		(at 114.3 17.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16136,7 +16232,7 @@
 		(fields_autoplaced yes)
 		(uuid "df4832ca-99ac-4e00-97f9-dc61465f8fbc")
 		(property "Reference" "K10-1"
-			(at 127 16.5099 90)
+			(at 117.475 16.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16145,7 +16241,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 127 19.0499 90)
+			(at 117.475 19.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16153,8 +16249,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 123.825 17.78 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 114.3 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16163,7 +16259,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.825 17.78 0)
+			(at 114.3 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16172,7 +16268,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 123.825 17.78 0)
+			(at 114.3 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
